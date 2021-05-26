@@ -1,10 +1,10 @@
 const fs = require('fs')
 
-function writeFileSync(name) {
+function writeFile(name) {
   fs.writeFileSync(
     `./${name}.js`,
-    `function ${name}(){
-
+    `function ${name}() {
+        
 }`
   )
 }
